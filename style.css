@@ -1,0 +1,66 @@
+body{
+    background-image: radial-gradient(circle,black 10%,maroon 20%,red 30%,pink 40%,white 50%,lime 60%,green 70%,blue 80%,magenta 90%);
+    
+    }
+    h1{
+        font-family: 'Bebas Neue', cursive;
+    
+    
+    }
+    #score{
+        margin-left: 5px;
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+    }
+    #timer{
+
+        margin-left: 5px;
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+
+    }
+    #show_sketch{
+    float:right;
+    background-image: linear-gradient( beige,lime,aquamarine);
+    font-style:black;
+    
+    }
+    canvas{
+        border:4px dashed white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    margin-top:80px;
+    
+    }
+    @keyframes example{
+        from{box-shadow: 2px 2px 38px yellow;}
+       to{box-shadow:2px 2px 38px aqua ;} 
+    
+    }
+    #confidence{
+    font-size:25px;
+    font-family:cursive;
+    color: beige;
+    }
+    #sketch_to_be_drawn{
+    font-size:25px;
+    font-family:cursive;
+    color: blanchedalmond;
+    
+    }
+    #your_sketch{
+        font-size:25px;
+        font-family:cursive;
+        color:blanchedalmond;
+
+    }
+
+    
+    
+    
+    
+    
+    
+    
